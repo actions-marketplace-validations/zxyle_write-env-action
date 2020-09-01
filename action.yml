@@ -1,0 +1,15 @@
+name: 'Write env file'
+description: 'Write env file'
+author: 'Xiang Zheng'
+inputs:
+  env_file_content:
+    description: 'env file in base64 format'
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'index.js'
+
+branding:
+  icon: 'award'
+  color: 'blue'
